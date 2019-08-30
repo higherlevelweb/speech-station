@@ -1,0 +1,245 @@
+[class*=" icofont-"], [class^=icofont-] {
+    margin-right: 1px;
+}
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+#main {
+    padding: 2em 0;
+}
+.layout-page #main {
+    padding: 2em 0 4em;
+}
+#topbar {
+    text-align: center;
+    padding: 1rem;
+}
+#page, .container {
+    min-width: 280px;
+}
+#topbar .container {
+    min-width: 240px;
+}
+.navbar {
+    padding: 0 1rem 3rem;
+}
+.page-header {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+}
+.breadcrumb {
+    padding: .5rem 1rem;
+    float: right;
+}
+
+.page-header h2 {
+   float:left; 
+}
+
+.login-menu {
+    display: block;
+    max-width: 300px;
+    padding: .5rem 0;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.form-header{
+   padding-bottom:3em; 
+}
+.span-horizontal .custom-control {
+    float:left;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+button.btn-primary {
+    color: #fff;
+    background-color: #3f9fc4;
+    border-color: #3f9fc4;
+}
+button.btn-primary:hover {
+    background: #00a9ac;
+    border-color: #00a9ac;
+}
+
+.text-required {
+    color: #dc3545;
+}
+#phonea{
+    width: 21%;
+    max-width:60px;
+    margin: 0 2px 0 3px;
+}
+#phoneb{
+    width: 21%;
+    max-width:60px;
+    margin: 0 3px 0 4px;
+}
+#phonec{
+    width: 42%;
+    max-width:100px;
+    margin-left: 3px;
+}
+.invalid-enddate, .invalid-endtime {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+#genericForm_forms_flash p {
+    margin-top: 15px;
+    line-height: 1.7;
+    padding-left:35px;
+}
+#genericForm_forms_flash p:before {
+    display: inline-block;
+    position: absolute;
+    margin-left: -38px;
+    margin-top: 2px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: transparent url(../images/green-check-sm.png) no-repeat;
+}
+#genericForm_forms_flash .alert-dismissible {
+    padding-right: 15px;
+}
+#genericForm_forms_flash button.close {
+    display:none;
+}
+/* Extra SMALL devices (574px and DOWN)*/
+@media (max-width: 575px) {
+#navrow .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar {
+    padding: 0 0 2.5rem;
+}
+.navbar-brand {
+    padding-top: 1%;
+    padding-bottom: 2.4rem;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+}
+#navrow button.navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand img {
+    width: 80%;
+    max-width: 280px;
+}
+.btn-highlight {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron p.btn-highlight {
+    margin-top: 1.5em;
+}
+.navrow-btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 45px;
+}
+.btn-highlight a {
+    margin-right: 45px;
+}
+.breadcrumb {
+    float: none;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-header h2 {
+    float: none;
+    text-align: center;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 767px) {
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-block {
+    margin-top: 1em;
+}
+#navrow .btn-highlight a {
+    margin-top: 0;
+}
+}
+
+/* Small devices (landscape phones, 991px and up)*/
+@media (max-width: 991px) {
+#topbar .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+ #navrow {
+    position: relative;
+    z-index: 600;
+}
+#navrow, #topbar {
+    opacity: 1;
+}
+.navbar-collapse {
+    position: absolute;
+    z-index: 700;
+    background: #fff;
+    width: 81%;
+    left: 9%;
+    border: 1px solid rgba(0,0,0,.15);
+}
+#navrow li.nav-item {
+    margin: 0 1em;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+#topbar {
+    text-align: right;
+    padding: 1em 0 0;
+}
+.jumbotron .btn-highlight {
+    float: right;
+    margin-top: 0.5em;
+}
+.jumbotron .lead {
+    width: 70%;
+    float: left;
+}
+#footer {
+    text-align: right;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,72 @@
+.carousel-item {
+  height: 35vh;
+  min-height: 150px;
+  background: no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-next, .carousel-prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 21px;
+    display: inline-block;
+    margin-top: -35px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    z-index: 5;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms;
+}
+.carousel-prev {
+    left: -37px;
+    text-indent: 28px;
+}
+.carousel-next {
+    right: -37px;
+    text-indent: -28px;
+}
+.carousel-prev:hover, .carousel-next:hover {
+    background-color: #45aed6;
+}
+a.carousel-prev:hover, a.carousel-next:hover {
+    color: #fff;
+}
+
+/* Extra large devices (large desktops, 575px and up)*/
+@media (min-width: 576px) {
+    .carousel-item {
+        height: 45vh;
+        min-height: 200px;
+    }
+}
+
+/* Small devices (landscape phones, 767px and up)*/
+@media (min-width: 768px) { 
+    .carousel-item {
+        height: 55vh;
+        min-height: 250px;
+    }
+}
+
+/* Small devices (landscape phones, 991px and up)*/
+@media (min-width: 992px) { 
+    .carousel-item {
+        height: 65vh;
+        min-height: 300px;
+    }
+}
+/* Small devices (landscape phones, 1999px and up)*/
+@media (min-width: 1199px) { 
+    .carousel-item {
+        height: 80vh;
+    }
+}

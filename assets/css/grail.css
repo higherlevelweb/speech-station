@@ -1,0 +1,54 @@
+#topbar {
+  z-index:600;
+}
+
+#page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main-area {
+  display: flex;
+  flex: 1;
+}
+
+#main {
+  flex: 1;
+}
+
+#side-nav, #main-aside {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+#main-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+#page,
+#main-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#side-nav {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  #main-area {
+    flex-direction: row;
+    flex: 1;
+  }
+
+  #main {
+    flex: 1;
+  }
+
+  #side-nav, #main-aside {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
+}
